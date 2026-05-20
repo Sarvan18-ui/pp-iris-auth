@@ -1,0 +1,8 @@
+Week 1 Summary:
+- Set up Python, Jupyter, and VS Code environment.
+- Created project folder structure.
+- Installed required libraries.
+- Downloaded and extracted CASIA-Iris-Thousand dataset.
+- Loaded iris_thousands.csv.
+- Counted 20,000 images and 2,000 labels.
+- Displayed sample iris images.
