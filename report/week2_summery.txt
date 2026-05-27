@@ -1,6 +1,6 @@
 Week 2 Summary:
--Did iris image preprocessing using OpenCV.
--Converted images to gray and resized them.
--Applied blur and improved image quality.
+-Preprocessed iris images using OpenCV.
+-Converted images to grayscale and resized them.
+-Applied blur and image enhancement techniques.
 -Detected iris using Hough Circle method.
--Marked iris area and saved output images in results folder.
+-Extracted iris region and saved processed images.
