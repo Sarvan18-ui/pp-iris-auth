@@ -6,4 +6,4 @@ Week 1 Summary:
 - Loaded iris_thousands.csv.
 - Counted 20,000 images and 2,000 labels.
 - Displayed sample iris images.
-- Displayed the subject distribution graph
+- Displayed the subject distribution graph.
