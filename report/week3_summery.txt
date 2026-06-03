@@ -1,0 +1,11 @@
+Week 3 Summary
+
+- Implemented deep learning-based iris feature extraction using ResNet50.
+- Generated 512-dimensional iris embeddings from preprocessed iris images.
+- Created feature vectors (iris templates) for training, validation, and test datasets.
+- Saved generated embeddings in CSV format for future processing.
+- Implemented MobileNetV2 as a lightweight feature extraction model.
+- Generated MobileNetV2 embeddings and compared them with ResNet50.
+- Analyzed model complexity, parameter count, and computational efficiency.
+- Observed that MobileNetV2 is faster and lighter, while ResNet50 provides stronger feature extraction capability.
+- Prepared iris templates for the next phase of feature compression and encryption.
