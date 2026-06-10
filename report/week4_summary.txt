@@ -1,0 +1,8 @@
+Week 4 Summary
+
+- Loaded ResNet50 feature embeddings.
+- Applied PCA compression and reduced dimensions from 512 to 128.
+- Achieved 91.67% variance retention after compression.
+- Generated and saved PCA variance retention graph.
+- Applied quantization to convert embeddings into int16 format.
+- Prepared optimized feature vectors for homomorphic encryption.

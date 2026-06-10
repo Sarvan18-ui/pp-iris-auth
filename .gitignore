@@ -1,26 +1,38 @@
 # =========================
+
 # Python
+
 # =========================
-__pycache__/
+
+**pycache**/
 *.pyc
 *.pyo
 *.pyd
 
 # =========================
+
 # Virtual Environment
+
 # =========================
+
 venv/
 env/
 .venv/
 
 # =========================
+
 # Jupyter
+
 # =========================
+
 .ipynb_checkpoints/
 
 # =========================
+
 # Dataset Files
+
 # =========================
+
 data/
 archive.zip
 *.zip
@@ -28,15 +40,21 @@ archive.zip
 *.7z
 
 # =========================
+
 # Preprocessed Images
+
 # =========================
+
 preprocessing/train/
 preprocessing/validation/
 preprocessing/test/
 
 # =========================
+
 # Model Files
+
 # =========================
+
 models/*.keras
 models/*.h5
 models/*.pth
@@ -44,35 +62,49 @@ models/*.pt
 models/*.ckpt
 
 # =========================
+
 # Large Embedding Files
+
 # =========================
-week3_results/train_embeddings.csv
-week3_results/validation_embeddings.csv
-week3_results/test_embeddings.csv
 
 results/week3_results/train_embeddings.csv
 results/week3_results/validation_embeddings.csv
 results/week3_results/test_embeddings.csv
 
+results/week4_results/compressed_embeddings.csv
+results/week4_results/quantized_embeddings.csv
+
 # =========================
+
 # Numpy / Pickle Files
+
 # =========================
+
 *.npy
 *.npz
 *.pkl
 
 # =========================
+
 # Logs
+
 # =========================
+
 *.log
 
 # =========================
+
 # VS Code
+
 # =========================
+
 .vscode/
 
 # =========================
+
 # OS Files
+
 # =========================
+
 .DS_Store
 Thumbs.db
