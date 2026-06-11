@@ -33,7 +33,14 @@ env/
 
 # =========================
 
-data/
+# =========================
+# Dataset Files
+# =========================
+
+data/*
+!data/*.csv
+!data/**/*.csv
+
 archive.zip
 *.zip
 *.rar
@@ -46,8 +53,6 @@ archive.zip
 # =========================
 
 preprocessing/train/
-preprocessing/validation/
-preprocessing/test/
 
 # =========================
 
@@ -63,16 +68,6 @@ models/*.ckpt
 
 # =========================
 
-# Large Embedding Files
-
-# =========================
-
-results/week3_results/train_embeddings.csv
-results/week3_results/validation_embeddings.csv
-results/week3_results/test_embeddings.csv
-
-results/week4_results/compressed_embeddings.csv
-results/week4_results/quantized_embeddings.csv
 
 # =========================
 
