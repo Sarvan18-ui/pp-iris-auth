@@ -33,14 +33,7 @@ env/
 
 # =========================
 
-# =========================
-# Dataset Files
-# =========================
-
-data/*
-!data/*.csv
-!data/**/*.csv
-
+data/
 archive.zip
 *.zip
 *.rar
@@ -53,6 +46,8 @@ archive.zip
 # =========================
 
 preprocessing/train/
+preprocessing/validation/
+preprocessing/test/
 
 # =========================
 
