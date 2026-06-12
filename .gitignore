@@ -21,7 +21,7 @@ env/
 # =========================
 # Ignore Full CASIA Dataset
 # =========================
-data/CASIA_Iris_Thousand/
+data/CASIA/CASIA-Iris-Thousand/
 
 # =========================
 # Dataset Archives
