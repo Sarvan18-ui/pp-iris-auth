@@ -1,60 +1,44 @@
 # =========================
-
 # Python
-
 # =========================
-
-**pycache**/
+__pycache__/
 *.pyc
 *.pyo
 *.pyd
 
 # =========================
-
 # Virtual Environment
-
 # =========================
-
 venv/
 env/
 .venv/
 
 # =========================
-
 # Jupyter
-
 # =========================
-
 .ipynb_checkpoints/
 
 # =========================
-
-# Dataset Files
+# Ignore Full CASIA Dataset
+# =========================
+data/CASIA_Iris_Thousand/
 
 # =========================
-
-data/
+# Dataset Archives
+# =========================
 archive.zip
 *.zip
 *.rar
 *.7z
 
 # =========================
-
 # Preprocessed Images
-
 # =========================
-
 preprocessing/train/
-preprocessing/validation/
-preprocessing/test/
 
 # =========================
-
 # Model Files
-
 # =========================
-
 models/*.keras
 models/*.h5
 models/*.pth
@@ -62,39 +46,24 @@ models/*.pt
 models/*.ckpt
 
 # =========================
-
-
-# =========================
-
 # Numpy / Pickle Files
-
 # =========================
-
 *.npy
 *.npz
 *.pkl
 
 # =========================
-
 # Logs
-
 # =========================
-
 *.log
 
 # =========================
-
 # VS Code
-
 # =========================
-
 .vscode/
 
 # =========================
-
 # OS Files
-
 # =========================
-
 .DS_Store
 Thumbs.db
